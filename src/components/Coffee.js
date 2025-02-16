@@ -155,6 +155,11 @@ export default function Coffee() {
                             {item.price}
                           </Box>
                         </Box>
+                        {item.description && (
+                          <Typography variant="body2" color="#FEF7EE">
+                            {item.description}
+                          </Typography>
+                        )}
                       </CardContent>
                     </Card>
                   </Grid>
